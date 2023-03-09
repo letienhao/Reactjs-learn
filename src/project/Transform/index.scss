@@ -1,0 +1,17 @@
+.boxed {
+  width: 60px;
+  height: 60px;
+  background: red;
+  // margin-left: 10px;
+  //transform ; scaleX scaleY  / tăng độ rộng trục x y
+  // transform: scaleX(2) scaleY(2);
+  // transform: scale(0.5, 0.5);
+  // transform: rotate(-45deg);
+  // transform: translate();
+  // transform : translateX translateY
+  transform: translateY(100%);
+  // transform: translateX(10px) translateY(10px);
+  margin: 5rem;
+  //skew giống hình bình hành
+  // transform: skewX(30deg) skewY(30deg);
+}

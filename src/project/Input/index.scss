@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.form-input {
+  transition: 0.25s ease;
+  padding: 0 20px;
+}
+.form-field {
+  position: relative;
+}
+.form-label {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 40px;
+  user-select: none; // k cho chọn name
+  color: #999;
+  pointer-events: none;
+  transition: 0.25s ease;
+}
+.form-input:not(:placeholder-shown) + .form-label,
+.form-input:focus + .form-label {
+  top: 20px;
+  left: 25px;
+  padding: 0 10px;
+  display: inline-block;
+  background: white;
+}
+
+.div {
+  display: inline;
+}
